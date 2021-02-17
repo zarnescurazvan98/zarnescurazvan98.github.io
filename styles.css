@@ -444,4 +444,7 @@ nav .menu-btn{
         flex-direction: column;
         margin: 0;
     }
+    footer p{
+        letter-spacing: 0.3px;
+    }
 }
