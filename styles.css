@@ -437,6 +437,18 @@ nav .menu-btn{
     .skill-heading{
         justify-content: center;
     }
+    .skill-heading span{
+        display: flex;
+        justify-content: center;
+    }
+    .skill-heading h2{
+        display: flex;
+        justify-content: center;
+    }
+    .skill-box{
+        display: flex;
+        justify-content: center;
+    }
     #skills{
         margin: 0px;
     }
