@@ -427,7 +427,14 @@ nav .menu-btn{
 }
 
 @media(max-width:530px){
-    
+    .main-text span{
+        display: flex;
+        justify-content: center;
+    }
+    .main-text h2{
+        display: flex;
+        justify-content: center;
+    }
     .skill-img{
         display: none;
     }
@@ -451,6 +458,10 @@ nav .menu-btn{
     }
     #skills{
         margin: 0px;
+    }
+    .contact-heading span{
+        display: flex;
+        justify-content: center;
     }
     footer{
         display: flex;
