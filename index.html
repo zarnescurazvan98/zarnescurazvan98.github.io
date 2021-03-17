@@ -1,123 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Personal CV</title>
-</head>
-<body>
-    <!-- main -->
-    <section id="main">
-        <!-- navigation -->
-        <nav>
-            <!-- logo -->
-            <div class="logo">
-                <img src="images/logo_top_left.jpg" alt="">
-            </div>
-            <!-- menu-btn -->
-            <input class="menu-btn" type="checkbox" id="menu-btn">
-            <label class="menu-icon" for="menu-btn">
-                <span class="nav-icon"></span>
-            </label>
-            
-            <!-- menu -->
-            <ul class="menu">
-               <li><a href="#main">Home</a></li>
-               <li><a href="#main">Bio</a></li> 
-               <li><a href="#skills">Skills</a></li> 
-               <li><a href="#projects">Projects</a></li> 
-               <li><a href="#contact">Contact</a></li> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Zarnescu Razvan</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+    <!-- header -->
+
+    <header>
+
+        <div class="user">
+            <img src="images/hero.jpg" alt="">
+            <h3 class="name">Zarnescu Razvan</h3>
+            <p class="post">Web developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
-        <!-- content -->
-        <div class="content">
-            <!-- model picture -->
-            <div class="model">
-                <img src="images/model.jpg" alt="model">
-            </div>
-            <!-- text -->
-            <div class="main-text">
-                <span>About me</span>
-                <h1>Hello, my name is Razvan Zarnescu.</h1>
-                <p> I'm a self-taught Web Developer looking for an internship or a junior developer opportunity to advance my skills and to create valuable products.</p>
-            </div>
-        </div>
+
+    </header>
+
+    <!-- menu -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>zarnescu razvan</span></h1>
+        <p>I'm a self-taught Web Developer looking for an internship or a junior developer opportunity to advance my skills and to create valuable products.</p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
     </section>
-    <!-- skills -->
-    <section id="skills">
-    <!-- text -->
-    <div class="skill-text">
-        <!-- heading -->
-        <div class="skill-heading">
-            <span>My Skills</span>
-            <h2>My Expertise</h2>
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> me </h1>
+
+    <div class="row">
+
+        <div class="info">
+            <h3> <span> name : </span> zarnescu razvan </h3>
+            <h3> <span> birth date : </span> 07 / 02 / 1998 </h3>
+            <h3> <span> qualification : </span> analist programator </h3>
+            <h3> <span> wanted post : </span> internship / junior web developer </h3>
+            <h3> <span> languages : </span> romanian, english </h3>
+            <a href="images/CV_Zarnescu_Razvan.pdf" download=""><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
         </div>
-        <!-- skill-box-container -->
-        <div class="skill-box-container">
-            <!-- skill-box -->
-            <div class="skill-box">
-                <!-- icons -->
-                <div class="skill-box-icon">
-                    <img src="images/html_logo.png" alt="">
-                    <img src="images/css_logo.png" alt="">
-                    <img src="images/javascript_logo.png" alt="">
-                    <img src="images/bootstrap_logo.png" alt="">
-                    <img src="images/react_logo.png" alt="">
-                    <img src="images/vuejs_logo.png" alt="">
-                    <img src="images/node_logo.png" alt="">
-                    <img src="images/mysql_logo.png" alt="">
-                    <img src="images/git_logo.png" alt="">
-                </div>
+
+        <div class="counter">
+            <div class="box">
+                <h3>communicative</h3>
+            </div>
+            <div class="box">
+                <h3>collaborative</h3>
+            </div>
+            <div class="box">
+                <h3>accountable</h3>
+            </div>
+            <div class="box">
+                <h3>self-taught</h3>
+            </div>
+            <div class="box">
+                <h3>creative</h3>
             </div>
         </div>
+
     </div>
-    <!-- img -->
-    <div class="skill-img">
-        <img src="images/laptop_coding.png">
-    </div>
+
     </section>
-    <!-- projects -->
-    <section id="projects">
-        <!-- heading -->
-        <div class="projects-heading">
-            <span>Projects</span>
-            <h3>Recent Projects Work</h3>
+
+    <!-- education -->
+
+    <section class="education" id="education">
+
+    <h1 class="heading"> my <span>education</span> </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2013-2017</span>
+            <h3>Octavian Goga National College</h3>
+            <h3>Sibiu</h3>
+            <p>Learning philology I gained a lot of linguistic skills
+                which help to me to this day while reading and learning
+                things. It helped me realize that I'm more suited for practical
+                analitical future.</p>
         </div>
-        <!-- img -->
-        <div class="projects-img">
+
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2017-2020</span>
+            <h3>Economy of Commerce, Tourism and
+                Services</h3>
+            <h3>University of Bábeș Bolyai, FSEGA Cluj-Napoca</h3>
+            <p>Studying economics helped me develop critical thinking and skills that
+                help me every day when it comes to making financial decisions or
+                choices in general.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2019-2020</span>
+            <h3>Qualification: Analist Programator</h3>
+            <h3>FastTrack It Cluj-Napoca</h3>
+            <p>While learning the basics of programming and web development, I
+                developed skills that will help me in the future to learn more and create
+                valuable products.</p>
+        </div>
+
+    </div>
+
+    </section>
+
+    <!-- portfolio -->
+
+    <section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> my <span>portfolio</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="https://angry-hawking-2fbc32.netlify.app/"><img src="images/weather_now.JPG" alt=""></a>
+        </div>
+
+        <div class="box">
             <img src="images/work_in_progress.png" alt="">
         </div>
+
+        <div class="box">
+            <img src="images/work_in_progress.png" alt="">
+        </div>
+
+        <div class="box">
+            <img src="images/work_in_progress.png" alt="">
+        </div>
+
+        <div class="box">
+            <img src="images/work_in_progress.png" alt="">
+        </div>
+
+        <div class="box">
+            <img src="images/work_in_progress.png" alt="">
+        </div>
+
+    </div>
+
     </section>
+
     <!-- contact -->
-    <section id="contact">
-        <!-- heading -->
-        <div class="contact-heading">
-            <span>Contact</span>
-            <h3>Contact me if interested!</h3>
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> me </h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h3 class="title">contact info</h3>
+
+                <div class="info">
+
+                    <h3> <a href="mailto:zarnescurazvan98@gmail.com"><i class="fas fa-envelope"></i> zarnescurazvan@gmail.com </a> </h3>
+                    <h3> <a href="tel:+40753788658"><i class="fas fa-phone"></i> +40753788658 </a> </h3>
+                    <h3> <a href="https://www.google.com/maps/place/Sibiu/@45.7829757,24.0697984,12z/data=!3m1!4b1!4m5!3m4!1s0x474c6788fd2c1cd5:0x3ade9d214e3390b4!8m2!3d45.7935607!4d24.1212945"><i class="fas fa-map-marker-alt"></i> Sibiu, Romania </a> </h3>
+                
+                </div>
+            
+            </div>
+        
         </div>
-        <!-- links -->
-        <div class="contact-links">
-            <a href="https://www.linkedin.com/in/r%C4%83zvan-z%C4%83rnescu-621536150/">
-                <img src="images/linkedin_logo.png" alt="">
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100005606238849">
-                <img src="images/facebook_logo.png" alt="">
-            </a>
-            <a href="https://github.com/zarnescurazvan98">
-                <img src="images/github_logo.png" alt="">
-            </a>
-        </div>
-        <div class="contact-pdf-btn">
-            <p>
-               <a href="images/CV - Zarnescu Razvan.pdf" class="button" download><i class="fa fa-download"></i>Download CV</a>
-            </p>
-         </div>
+
     </section>
-    <footer>
-        <a href="tel:+40753788658"><p>Phone: +40753788658</p></a>
-        <a href="mailto:zarnescurazvan98@gmail.com"><p>Mail: zarnescurazvan98@gmail.com</p></a>
-    </footer>
-</body>
+
+    <!-- scroll top button -->
+
+    <a href="#home" class="top">
+        <img src="images/scroll_top_img.png" alt="">
+    </a>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- js file link  -->
+    <script src="script.js"></script>
+
+    </body>
 </html>
