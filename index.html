@@ -1,219 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Portfolio Zarnescu Razvan</title>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-		/>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<!-- header -->
 
-		<header>
-			<div class="user">
-				<img src="images/hero.jpg" alt="" />
-				<h3 class="name">Zarnescu Razvan</h3>
-				<p class="post">Web developer</p>
-			</div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarnescu Razvan's Portfolio</title>
 
-			<nav class="navbar">
-				<ul>
-					<li><a href="#home">home</a></li>
-					<li><a href="#about">about</a></li>
-					<li><a href="#education">education</a></li>
-					<li><a href="#portfolio">portfolio</a></li>
-					<li><a href="#contact">contact</a></li>
-				</ul>
-			</nav>
-		</header>
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-		<!-- menu -->
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-		<div id="menu" class="fas fa-bars"></div>
+<body>
 
-		<!-- home -->
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
 
-		<section class="home" id="home">
-			<h3>HI THERE !</h3>
-			<h1>I'M <span>zarnescu razvan</span></h1>
-			<p>
-				I'm a self-taught Web Developer looking for an internship or a junior
-				developer opportunity to advance my skills and to create valuable
-				products.
-			</p>
-			<a href="#about"
-				><button class="btn">about me <i class="fas fa-user"></i></button
-			></a>
-		</section>
+        <i class='bx bx-menu' id="menu-icon"></i>
 
-		<!-- about -->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-		<section class="about" id="about">
-			<h1 class="heading"><span>about</span> me</h1>
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Zarnescu Razvan</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100005606238849"><i class='bx bxl-facebook'></i></a>
+                <a href="https://github.com/zarnescurazvan98"><i class='bx bxl-github'></i></i></a>
+                <a href="https://www.linkedin.com/in/r%C4%83zvan-z%C4%83rnescu-621536150/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="images/Razvan-Zarnescu-CV.pdf" download="Razvan-Zarnescu-CV" class="btn">Download CV</a>
+        </div>
 
-			<div class="row">
-				<div class="info">
-					<h3><span> name : </span> zarnescu razvan</h3>
-					<h3><span> birth date : </span> 07 / 02 / 1998</h3>
-					<h3><span> qualification : </span> analist programator</h3>
-					<h3>
-						<span> wanted post : </span> internship / junior web developer
-					</h3>
-					<h3><span> experience </span> serviceNow internship (3 Months)</h3>
-					<h3><span> languages : </span> romanian, english</h3>
-					<!-- <a href="images/CV_Zarnescu_Razvan.pdf" download=""
-						><button class="btn">
-							download CV <i class="fas fa-download"></i></button
-					></a> -->
-				</div>
+        <div class="home-img">
+            <img src="images/hero.png" alt="">
+        </div>
+    </section>
 
-				<div class="counter">
-					<div class="box">
-						<h3>communicative</h3>
-					</div>
-					<div class="box">
-						<h3>collaborative</h3>
-					</div>
-					<div class="box">
-						<h3>accountable</h3>
-					</div>
-					<div class="box">
-						<h3>self-taught</h3>
-					</div>
-					<div class="box">
-						<h3>creative</h3>
-					</div>
-				</div>
-			</div>
-		</section>
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/hero.png" alt="">
+        </div>
 
-		<!-- education -->
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Experienced Front-End Developer with a strong attention to detail and more
+                than 2 years of experience in developing landing pages and websites using HTML, CSS, JavaScript and Vue.
+                Skilled in both independent and team-based work environments, with a focus on producing high-quality,
+                visually appealing and user-friendly websites.</p>
+        </div>
+    </section>
 
-		<section class="education" id="education">
-			<h1 class="heading">my <span>education</span></h1>
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
 
-			<div class="box-container">
-				<div class="box">
-					<i class="fas fa-graduation-cap"></i>
-					<span>2019-2020</span>
-					<h3>Qualification: Analist Programator</h3>
-					<h3>FastTrack It Cluj-Napoca</h3>
-					<p>
-						While learning the basics of programming and web development, I
-						developed skills that will help me in the future to learn more and
-						create valuable products.
-					</p>
-				</div>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Create custom websites using modern web technologies</p>
+                <p>Build responsive and mobile-friendly web applications</p>
+                <p>Develop intuitive user interfaces and smooth user experiences</p>
+                <p>Optimize website performance and search engine visibility</p>
+            </div>
 
-				<div class="box">
-					<i class="fas fa-graduation-cap"></i>
-					<span>2017-2020</span>
-					<h3>Economy of Commerce, Tourism and Services</h3>
-					<h3>University of Bábeș Bolyai, FSEGA Cluj-Napoca</h3>
-					<p>
-						Studying economics helped me develop critical thinking and skills
-						that help me every day when it comes to making financial decisions
-						or choices in general.
-					</p>
-				</div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Design visually stunning logos, branding, and marketing materials</p>
+                <p>Create custom illustrations and graphics</p>
+                <p>Develop user-centered designs for websites and applications</p>
+                <p>Produce effective designs for print and digital media</p>
+            </div>
+        </div>
+    </section>
 
-				<div class="box">
-					<i class="fas fa-graduation-cap"></i>
-					<span>2013-2017</span>
-					<h3>Octavian Goga National College</h3>
-					<h3>Sibiu</h3>
-					<p>
-						Learning philology I gained a lot of linguistic skills which help to
-						me to this day while reading and learning things. It helped me
-						realize that I'm more suited for practical analitical future.
-					</p>
-				</div>
-			</div>
-		</section>
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
 
-		<!-- portfolio -->
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/1.PNG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Ecommerce Store</h4>
+                    <p>I developed an ecommerce store from scratch using React, HTML, CSS, and JavaScript.</p>
+                    <a href="https://github.com/zarnescurazvan98/ecommerce-store-react"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
 
-		<section class="portfolio" id="portfolio">
-			<h1 class="heading">my <span>portfolio</span></h1>
+            <div class="portfolio-box">
+                <img src="images/2.PNG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather App</h4>
+                    <p>This is a solo project I worked on that involved utilizing HTML, CSS, and JavaScript to develop a weather application.</p>
+                    <a href="https://github.com/zarnescurazvan98/weather_now_app"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
 
-			<div class="box-container">
-				<div class="box">
-					<a href="https://angry-hawking-2fbc32.netlify.app/"
-						><img src="images/cloudy.png" alt=""
-					/></a>
-				</div>
+            <div class="portfolio-box">
+                <img src="images/3.PNG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Social Media Replica UI</h4>
+                    <p>This solo project, developed using React, HTML, CSS, and JavaScript, showcases my expertise in UI design by presenting a social media replica UI inspired by Facebook.</p>
+                    <a href="https://github.com/zarnescurazvan98/social-media-site-replica-ui"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<div class="box">
-					<a href="https://zarnescurazvan98.github.io/react_fun_questions/">
-						<img src="images/question-mark.png" alt="" />
-					</a>
-				</div>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
 
-				<div class="box">
-					<a href="https://zarnescurazvan98.github.io/shopping_list/">
-						<img src="images/checklist.png" alt="" />
-					</a>
-				</div>
-			</div>
-			</div>
-		</section>
+        <form action="https://formsubmit.co/zarnescurazvan98@gmail.com" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+            <textarea name="msg" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
 
-		<!-- contact -->
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Zarnescu Razvan | All Rights Reserved.</p>
+        </div>
 
-		<section class="contact" id="contact">
-			<h1 class="heading"><span>contact</span> me</h1>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
 
-			<div class="row">
-				<div class="content">
-					<h3 class="title">contact info</h3>
 
-					<div class="info">
-						<h3>
-							<a href="mailto:zarnescurazvan98@gmail.com"
-								><i class="fas fa-envelope"></i> zarnescurazvan@gmail.com
-							</a>
-						</h3>
-						<h3>
-							<a href="tel:+40753788658"
-								><i class="fas fa-phone"></i> +40753788658
-							</a>
-						</h3>
-						<h3>
-							<a
-								href="https://www.linkedin.com/in/r%C4%83zvan-z%C4%83rnescu-621536150/"
-								><i class="fab fa-linkedin"></i> LinkedIn
-							</a>
-						</h3>
-						<h3>
-							<a href="https://github.com/zarnescurazvan98"
-								><i class="fab fa-github"></i>Github</a
-							>
-						</h3>
-						<h3>
-							<a
-								href="https://www.google.com/maps/place/Sibiu/@45.7829757,24.0697984,12z/data=!3m1!4b1!4m5!3m4!1s0x474c6788fd2c1cd5:0x3ade9d214e3390b4!8m2!3d45.7935607!4d24.1212945"
-								><i class="fas fa-map-marker-alt"></i> Sibiu, Romania
-							</a>
-						</h3>
-					</div>
-				</div>
-			</div>
-		</section>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-		<!-- scroll top button -->
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-		<a href="#home" class="top">
-			<img src="images/scroll_top_img.png" alt="" />
-		</a>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
 
-		<!-- jquery cdn link  -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-		<!-- js file link  -->
-		<script src="script.js"></script>
-	</body>
 </html>
